@@ -9,7 +9,7 @@ class XQuestionAdmin( admin.ModelAdmin ):
 class XChoiceAdmin( admin.ModelAdmin ):
     fieldsets = [
         (
-            "General", { "fields": ["choice_text"] }
+            "General", { "fields": ["choice_text", "question"] }
         )
     ]
 
